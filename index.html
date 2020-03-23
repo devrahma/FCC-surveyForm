@@ -1,0 +1,185 @@
+<style>
+
+
+body{
+  text-align: center;
+  background-image: url("https://pikwizard.com/photos/600f2c4e0c81a710b8e14c236f6a05df-m.jpg")
+ 
+}
+
+#title{
+  color: brown;
+}
+
+#description{
+  color:  black;
+}
+
+  
+#survey-form{
+  margin:0 auto;
+  width: 900px;
+  background-color:grey;
+ }
+
+.row-tab{
+  display: block;
+  padding-top: 35px;
+}
+
+.checkbox-label{
+  display:inline-block;
+  text-align:inherit;
+  width: 48%;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.label{
+  display:inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align:left;
+  margin:12px;
+padding:1px;
+ 
+ }
+
+
+.in [type=text] {
+width: 80%%;
+  padding: 15px 3px;
+}
+
+.select-input{
+  display:inline-block;
+  text-align:left;
+  width: 28%;
+  padding-top: 45px;
+  
+}
+
+.label-select{
+  display:inline-block;
+  text-align:right;
+  width: 48%;
+  
+}
+
+
+.checkbox-label{
+  padding:5px
+    
+  
+}
+
+.radio-input{
+  text-align: inherit;
+  padding:5px;
+}
+.box [type=text] {
+  vertical-align:top;
+  text-align:center;
+  padding: 30px 2px;
+}
+#submit{
+  text-align: center;
+  display:inline-block;
+  
+  
+}
+
+#message{
+  align: left;
+  text-align: center;
+  width:50%
+}
+
+#submit {
+  align: center;
+  width:50%;
+}
+
+
+</style
+
+
+
+<h1 id="title"> Slayway Survey Form </h1>
+
+<p id="description"> <b>Do you mind filling me out?<b>  <em>Slayer</em>
+  <form id='survey-form'>
+  <div class="row-tab">
+       <div class="label" id="name" 
+    
+       <label> Name </label>
+    </div>
+    <div class="in" id="name-label">
+     <input type="text" placeholder="What should we call you?"  minlenght="10" maxlenght="1000" size="120" required>
+</div>
+      </div>
+    
+    <div class="row-tab">
+       <div class="label">
+       <label> Age</label>
+    </div>
+    <div class="in" id="number-label">
+     <input type="text" placeholder="Input Age" minlenght="3"  maxlenght="3"size="120" required>
+</div>
+      </div>
+      
+     <div class="row-tab">
+       <div class="label">
+       <label>Email</label>
+    </div>
+    <div class="in" id="email-label">
+     <input type="text" placeholder=" ex:irahhmatullah@gmail"  minlenght="10" maxlenght="100" size="120" required>
+</div>
+      </div
+       
+      <div class="row-tab">
+       <div class="label-select">
+         <label> What's your favorite shop section?</label>
+      </div>
+      <div id="dropdown" class="select-input">
+        <select>
+  <option value="volvo">Skincare</option>
+  <option value="saab"> Makeup</option>
+  <option value="mercedes">Fragrances</option>
+  <option value="audi">Haircare</option>
+</select>
+      </div>
+    </div>
+    
+      <div class="row-tab">
+       <div class="radio-labels">
+        </div>
+        <div class="radio-input">
+   <label> How satisfied are you?       
+  <input type="radio" name="gender" value="male"> Very
+  <input type="radio" name="gender" value="female"> Okay 
+  <input type="radio" name="gender" value="other"> not sure
+          </label>
+        </div>
+    </div>
+    </div>
+
+<div class="row-tab"> 
+  <div class="checkbox-label">
+    <label id="1label"> Occupation: 
+     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Employed</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2">Enterprenuer</label>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">Student</label>
+    </label>
+  </div>    
+</div>
+
+<div class="row-tab">
+  <label for="Message" class="box"> </label>
+  <textarea id="message" rows="4" cols="50">What do you think we should improve on?:</textarea>
+  <div class="row-tab">
+   <input type="submit" style="padding:10px" value="Submit" id="submit">
+       </form>
